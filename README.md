@@ -18,7 +18,7 @@ pip install -r requirements.txt
 To train the model(s) in the paper, run this command:
 
 ```train
-python train.py cifar10 --alg clip -m wrn --noise_type symmetric --noise_rate 0.5 --exp_name test --gpu 0 --temp 1.5
+python train.py cifar10 --alg clip -m resnet34 --noise_type symmetric --noise_rate 0.5 --exp_name test --gpu 0 --temp 1.5
 ```
 
 
